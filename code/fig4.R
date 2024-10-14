@@ -10,7 +10,7 @@
 # install.packages('extrafont')
 
 ##########
-## Fig. 3A - Expanded swarm space
+## Fig. 4A - Expanded swarm space
 
 ## File from package
 all_data <- swaRmverse::multi_species_metrics
@@ -69,7 +69,7 @@ p4A <- ggplot2::ggplot(
 
 
 ##########
-## Fig. 3B - Biohybrid swarm space
+## Fig. 4B - Biohybrid swarm space
 
 ## File output from the biohybrid_space.R file
 all_data <- read.csv('../data/all_species_and_model_metrics.csv') 

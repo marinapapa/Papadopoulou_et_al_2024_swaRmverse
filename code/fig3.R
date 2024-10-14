@@ -144,9 +144,9 @@ p3d <- ggplot2::ggplot(scores) +
   ggplot2::geom_text(label = 'NND', x =len1['mean_mean_nnd', 1] + 0.3, y = len1['mean_mean_nnd', 2]+ 0.2, size = 5,
                      vjust = 1,  family = 'Trebuchet MS')+
   
-  ggplot2::geom_segment(ggplot2::aes(x = 0, y = 0, xend = len1['stdv_speed', 1], yend = len1['stdv_speed', 2] ),
+  ggplot2::geom_segment(ggplot2::aes(x = 0, y = 0, xend = len1['cv_speed', 1], yend = len1['cv_speed', 2] ),
                         color = 'grey20', size = 1.2, arrow = ggplot2::arrow(length = unit(0.3, 'cm')))+
-  ggplot2::geom_text(label = 'Speed Var.', x =len1['stdv_speed', 1] - 0.3, y = len1['stdv_speed', 2]-0.2, size = 5,
+  ggplot2::geom_text(label = 'Speed Var.', x =len1['cv_speed', 1] - 0.3, y = len1['cv_speed', 2]-0.2, size = 5,
                      vjust = 1,  family = 'Trebuchet MS')+
   
   ### PC2

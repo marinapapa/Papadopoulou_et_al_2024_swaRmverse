@@ -1,14 +1,5 @@
 ###########################################################
-## Biohybrid Swarm Space from Papadopoulou et al. (2024) swaRmverse
-## Author: Marina Papadopoulou 
-## Year: 2024
-
-## Required packages
-# install.packages('swaRmverse')
-# install.packages('data.table')
-
-###########################################################
-## Biohybrid Swarm Space from Papadopoulou et al. (2024) swaRmverse
+## Case Study - Goats vs. Sheep from Papadopoulou et al. (2024) swaRmverse
 ## Author: Marina Papadopoulou 
 ## Year: 2024
 ## Data: The trajectories of sheep and goats are kindly provided by Lisa 'O Bryan 

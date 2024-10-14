@@ -20,7 +20,7 @@ All analysis and plotting is performed in R.
 
 5. _biohybrid\_swarm\_space.R_: analyses simulated trajectories of pigeon-like flocks and adds them to pre-calculated metrics of collective motion from 4 empirical systems. 
 
-6. _fig4.R_: reproduces Figure 3, based on the data exported from (1), (3) and (5).
+6. _fig4.R_: reproduces Figure 4, based on the data exported from (1), (3) and (5).
 
 ### Data
 
