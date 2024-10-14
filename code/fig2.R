@@ -156,7 +156,9 @@ leg <- cowplot::get_legend(p4leg)
 p2Al <- cowplot::ggdraw(p2A)  +
   cowplot::draw_plot(leg, .25, .25, .5, .75) 
 
-cowplot::plot_grid(p2Al, p2B, labels = 'AUTO', rel_widths = c(1.1, 0.9) )
+Fig2 <- cowplot::plot_grid(p2Al, p2B, labels = 'AUTO', rel_widths = c(1.1, 0.9) )
+
+Fig2
 
 ##################################################
 ####    the End       ############################

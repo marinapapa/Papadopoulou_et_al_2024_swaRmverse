@@ -14,9 +14,13 @@ All analysis and plotting is performed in R.
 
 2. _fig2.R_: reproduces Figure 2, based on the data expoerted from (1).
 
-3. _biohybrid\_swarm\_space.R_: analyses simulated trajectories of pigeon-like flocks and adds them to pre-calculated metrics of collective motion from 4 empirical systems. 
+3. _goats\_vs_\_sheep.R_: analysis of trajectories of goats and sheep using the swaRmverse pacakge, as presented in the case-study. From raw data to 'swarm\_space' comparison. 
 
-4. _fig3.R_: reproduces Figure 3, based on the data exported from (1) and (3).
+4. _fig3.R_: reproduces Figure 3, based on the data exported from (3).
+
+5. _biohybrid\_swarm\_space.R_: analyses simulated trajectories of pigeon-like flocks and adds them to pre-calculated metrics of collective motion from 4 empirical systems. 
+
+6. _fig4.R_: reproduces Figure 3, based on the data exported from (1), (3) and (5).
 
 ### Data
 
@@ -26,8 +30,17 @@ All analysis and plotting is performed in R.
 
 3. _sens\_analysis\_goats.csv_: the file with the events' summary across thresholds for polarization and speed, exported from _sensitivity\_analysis.R_
 
-4. _all\_species\_and\_model\_metrics.csv_: the file exported by _biohybrid\_swarm\_space.R_, with metrics of collective motion across real and simulated groups.
+4. goats\_vs\_sheep\_metrics.csv: the file with the events of collective motion of sheep and goats, exported by the _goats\_vs\_sheep.R_.
+
+5. _all\_species\_and\_model\_metrics.csv_: the file exported by _biohybrid\_swarm\_space.R_, with metrics of collective motion across real and simulated groups.
+
+The trajectories of goats and sheep used in our case-study (in _goats\_vs\_sheep.R_) are unpublished and kindly provided by Lisa O'Bryan (https://obryan.rice.edu/) to showcase the functionality of the package. For inquiries about the raw data please contact the authors and Dr. O'Bryan. 
 
 ### Citation:
 
-_Papadopoulou M., Garnier S., King A.J. (Submitted) swaRmverse: an R package for the comparative analysis of collective motion._
+_Papadopoulou M.*, Garnier S., King A.J. (Under review) swaRmverse: an R package for the comparative analysis of collective motion._
+
+#### Contact:
+
+*Marina Papadopoulou: m.papadopoulou.rug@gmail.com
+
