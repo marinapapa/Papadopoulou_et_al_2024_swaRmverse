@@ -38,7 +38,7 @@ The trajectories of goats and sheep used in our case-study (in _goats\_vs\_sheep
 
 ### Citation:
 
-_Papadopoulou M.*, Garnier S., King A.J. (Under review) swaRmverse: an R package for the comparative analysis of collective motion._
+_Papadopoulou M.*, Garnier S., King A.J. (2024) swaRmverse: an R package for the comparative analysis of collective motion. Methods in Ecology and Evolution._
 
 #### Contact:
 
